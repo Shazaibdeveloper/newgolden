@@ -488,6 +488,26 @@ backface-visibility: visible;
     -webkit-text-fill-color: transparent;
 }
 
+
+@media screen and (max-width: 500px) {
+  .blog-head-container h1 {
+    font-size: 25px;
+}
+
+.blog-head-container {
+  width: 85%;
+}
+
+.blog-head-container p {
+  font-size: 13px;
+}
+
+.text-container {
+  width: 85%;
+}
+
+}
+
 /* Blog */
 
 
