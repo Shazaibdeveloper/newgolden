@@ -1,0 +1,35 @@
+.Chunks {
+    display: flex;
+    background: url(new.gif), #00000093;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 60vh;
+}
+
+.chunktext {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s all;
+}
+
+.chunktext p {
+
+    padding: 0 50px;
+    color: #ef5734 !important;
+    background-image: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.Chunks:hover .chunktext {
+    opacity: 1;
+
+}

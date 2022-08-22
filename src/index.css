@@ -1,0 +1,603 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+}
+
+h1{
+  font-weight: 100;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+                                                           /* Navbar */
+
+.topnav {
+  overflow: hidden;
+    background-color: #161414;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+a.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.alllinks {
+  display: flex;
+}
+
+.gold-icon {
+  margin: 0 10px;
+}
+
+.main-logo {
+  display: flex;
+}
+
+.main-logo svg {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+}
+
+                                                        /* Navbar  */
+
+                                                        /* Banner */
+
+.Banner {
+  background: url("banner.jpg");
+   background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+   background-blend-mode: saturation;
+  width: 100%;
+  height: 90vh;
+}
+
+
+
+
+
+ 
+
+
+   .Banner-Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .golden-head h1 {
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.golden-para p {
+  color: #ffffffe8;
+  font-size: 16px;
+}
+
+.golden-para {
+  margin: 15px 0 55px;
+}
+
+.two-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.two-btn a {
+  color: white;
+  text-decoration: none;
+  background: -webkit-linear-gradient(315deg,#ef5734 0%,#ffcc2f 74%);
+   padding: 20px 35px;
+  border-radius: 40px;
+  transition: 0.5s all;
+}
+
+.two-btn a:hover,.Goldensea-content a:hover,.nft-buy a:hover {
+  background: transparent;
+  border: 1px solid #ffcc2f;
+  color: #ef5734;
+}
+
+.flipcard-anchor:hover{
+background: transparent;
+border: 1px solid #ffcc2f;
+}
+
+.start-btn, .toggle-btn {
+  margin: 0 15px;
+}
+  
+ 
+                                                      /* Banner */
+
+
+
+
+/* Goldenesa */
+
+.banner-content{
+  Position: relative;
+display: block;
+float: left;
+width: 100%;
+margin-right: -100%;
+-webkit-backface-visibility: visible;
+backface-visibility: visible;
+  transition-property: transform;
+}
+ 
+
+.Goldensea-content {
+  background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+   display: block; 
+  width: 100%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.Goldensea-content h1{
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+
+}
+
+
+.Goldensea-content p{
+  width: 50%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffffe8;
+  text-align: center;
+  margin: 40px 0;
+}
+
+ 
+ 
+
+
+/* Goldenesa */
+
+/* Flexible */
+
+.Flexible-Container {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #171717;
+  margin: 0 auto;
+}
+                                                       
+
+.Flexible-Content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.Same-Flexible-div {
+  width: 17em;
+  height: auto;
+  margin: 15px 19px;
+  padding: 35px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hoverfa {
+  font-size: 32px !important;
+  color: #cece00;
+}
+
+.Same-Flexible-div h1 {
+  font-weight: 100;
+}
+
+.Same-Flexible-div p {
+  padding: 0 22px;
+  color: #fcfcfcd1;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+} 
+
+.flexible-heading {
+  margin: 25px 0;
+}
+ 
+.flexible-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+/* Flexible */
+
+
+
+
+/* Goldennft */
+
+.Goldennft-container{
+  background: #171717;
+    padding: 4em 0;
+}
+
+.nft-video-container img {
+  border-radius: 10px;
+}
+
+
+.gif-div {
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+
+.Goldennft-content {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Goldennft-content p{
+ color: #FCFCFC;
+}
+
+.child-nft-div {
+  width: 25%;
+  display: flex;
+  margin: 20px 20px 0 0;
+}
+
+
+.child-nft-img  { 
+  display: flex;
+}
+
+.child-nft-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.nft-video-container, .nft-desc-container {
+  margin: 0 30px;
+  overflow: hidden;
+    width: 50%; 
+}
+
+.nft-video-container img, .nft-desc-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.nft-desc-content {
+  width: 40%;
+  margin: 0 0 0 30px;
+}
+
+.nft-desc-con {
+  justify-content: flex-start;
+  margin: 50px auto 0;
+}
+
+.nft-desc-container {
+  text-align: center;
+ }
+
+.nft-desc-container a {
+  font-size: 25px !important;
+}
+
+.nft-desc {
+  margin: 20px 0;
+}
+
+.nft-property {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0 50px;
+}
+
+
+.name-div a,.name-div p,.nft-buy a {
+  font-size: 15px !important;
+}
+
+
+.name-div {
+  border: 1px solid yellow;
+  padding: 10px 31px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+
+/* Card container */
+
+.mega-card-container {
+  display: flex;
+  justify-content: center;
+  padding: 6em 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1800px;
+  background: #171717;
+}
+
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  margin: 40px 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+.card-container img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content {
+  padding: 2px 20px 35px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .card-container {
+    width: 90%;
+}
+}
+
+
+
+
+/* card container */
+
+
+
+
+
+
+/* Blog */
+
+.bg-color-div{
+  background: #171717;
+}
+
+
+.blog-head-container {
+  width: 60%;
+  padding: 55px 0;
+  margin: 0 auto;
+}
+
+.blog-head-container h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 40px 0 35px;
+  color: white;
+}
+
+.blog-head-container a {
+  color: white;
+  background: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+  padding: 6px 17px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.blog-head-container a:hover {
+  background: transparent;
+  color: #ef5734;
+  border: 1px solid #ef5734;
+}
+
+
+.blog-head-container p {
+  font-size: 21px;
+  color: #ffffffc2;
+  font-weight: 100;
+}
+
+
+.ban-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.ban-img {
+  width: 100%;
+}
+
+.text-container {
+  width: 60%;
+   margin: 0 auto;
+  padding: 85px 0;
+  line-height: 30px;
+  font-size: 18px;
+  color: #ef5734;
+    background: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Blog */
+
+
+
+
+
+
+
+
+
+
+
+/* Goldennft */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  a.logo-div {
+    order: 2;
+  }
+
+
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .icons {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.topnav {
+  justify-content: center;
+}
+
+.main-logo, .alllinks, .about {
+  padding: 0 55px 0 0;
+}
+
+.topnav a {
+  padding: 14px 0px;
+}
+
+.main-logo svg {
+  float: left;
+}
+
+.golden-head h1,.Goldensea-content h1 {
+  font-size: 35px;
+}
+
+
+.Goldensea-content {
+  text-align: center;
+}
+
+.Goldensea-content p {
+  width: 90%;
+}
+
+.Flexible-Container {
+  height: auto;
+}
+
+.Goldennft-content {
+  flex-direction: column;
+}
+
+.gif-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.Goldennft-content {
+  width: 100%;
+}
+
+.nft-video-container {
+  padding: 0 0 45px 0;
+}
+
+.nft-video-container, .nft-desc-container { 
+  width: 86%;
+}
+
+.nft-desc-content {
+  width: 90%;
+ }
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

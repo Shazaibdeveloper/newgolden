@@ -1,0 +1,29 @@
+.Box_container {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image_container svg {
+    height: 100px;
+    width: 100px;
+    color: #ef5734;
+    background-image: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

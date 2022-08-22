@@ -1,0 +1,9 @@
+.stack-images svg {
+    margin-left: 10px !important;
+    height: 25px;
+    width: 25px;
+    color: #ef5734;
+    background-image: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

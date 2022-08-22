@@ -1,0 +1,14 @@
+/* .maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+} */
+
+.avt {
+    color: #ef5734;
+    background-image: -webkit-linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
